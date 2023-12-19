@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 # Header
 st.header('Nugroho :sparkles:')
 st.subheader('Plot')
+
+nama = st.text_input('Nama', 'Fariq', label_visibility='collapsed')
+st.write('Halo', nama)
  
 x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
 y = np.sin(x)  # Calculating sin(x) values
