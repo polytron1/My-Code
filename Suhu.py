@@ -6,12 +6,11 @@ import matplotlib.pyplot as plt
 st.header('Fariq :sparkles:')
 st.subheader('Plot')
 
+x = st.number_input('Suhu = ',value=100)
 
-option =  st.selectbox(
+satuan =  st.selectbox(
  'satuan',
  ('C', 'F', 'R', 'K')
 )
-
-f1 = st.number_input('Nilai f1 = ',value=1)
 
 st.caption('Copyright © Nugroho Adi Pramono 2023')
