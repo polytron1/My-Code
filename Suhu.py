@@ -6,9 +6,12 @@ import matplotlib.pyplot as plt
 st.header('Fariq :sparkles:')
 st.subheader('Plot')
 
-x = st.number_input('Suhu = ',value=100)
-
-satuan =  st.selectbox(
+c1, c2 = st.columns(2)
+ 
+with c1:
+ x = st.number_input('Suhu = ',value=100)
+with c2:
+ satuan =  st.selectbox(
  'satuan',
  ('C', 'F', 'R', 'K'))
 
