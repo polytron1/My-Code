@@ -7,7 +7,12 @@ st.header('Fariq :sparkles:')
 st.subheader('Plot')
 
 c1, c2 = st.columns(2)
- 
+
+if(satuan=='C'):
+ if(konversi=='C'):
+  y = x
+ elif(konversi=='F'):
+  y = x*9/5+32
 with c1:
    x = st.number_input('Suhu = ',value=100)
    st.write('Dikonversi ke: ')
