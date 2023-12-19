@@ -25,6 +25,6 @@ if(satuan=='C'):
  elif(konversi=='F'):
   y = x*9/5+32
 
-st.write(x, ' ', satuan, ' = ', konversi)
+st.write(x, ' ', satuan, ' = ',y, ' ', konversi)
 
 st.caption('Copyright © Nugroho Adi Pramono 2023')
